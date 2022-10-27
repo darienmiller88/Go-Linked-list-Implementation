@@ -116,7 +116,7 @@ func (l *LinkedList) Delete(number int) error{
 				nodeBehind.next      = nodeInFront
 				nodeInFront.previous = nodeBehind
 				
-				//Disconnect the found node from the nodes in fron and behind it.
+				//Disconnect the found node from the nodes in front and behind it.
 				tempHead.next     = nil
 				tempHead.previous = nil
 				break
